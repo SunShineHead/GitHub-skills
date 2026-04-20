@@ -1,0 +1,2 @@
+pipenv --rm          # remove old virtualenv
+pipenv install       # create fresh env + regenerate Pipfile.lock
