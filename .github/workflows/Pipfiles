@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.12"
+
+[packages]
+flask = ">=3.1"
+python-dotenv = ">=1.0.1"
+
+[dev-packages]
