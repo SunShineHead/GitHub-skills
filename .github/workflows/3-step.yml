@@ -54,7 +54,7 @@ jobs:
     needs: [check_keywords]
     name: Find Exercise Issue
     if: needs.check_keywords.outputs.result == 'success'
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.9.0
+    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.9.3
 
   post_next_step_content:
     name: Post next step content
